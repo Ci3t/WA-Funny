@@ -1,0 +1,66 @@
+
+.container {
+  text-align: center;
+  /* margin-bottom: 1em; */
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(51, 51, 51);
+  height: 100vh;
+
+}
+.likeAndDislike{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  
+}
+.like{
+  margin-right: 7em;
+  color: rgb(61, 190, 61);
+
+}
+.like img{
+
+  border: 3px solid black;
+}
+.dislike{
+  /* margin-left: 7em; */
+  color: red;
+}
+.dislike img{
+  /* margin-left: 7em; */
+  border: 3px solid black;
+  color: rgb(240, 54, 54);
+}
+
+.buttons button{
+  background-color: #333;
+  padding: 10px;
+  margin-left: 4em;
+  margin-right: 4em;
+  cursor: pointer;
+}
+
+.imgg{
+  border: solid rgb(255, 255, 255) 2px;
+}
+.likeBtn{
+  color: green;
+}
+.likeBtn:hover{
+  background-color: rgb(99, 180, 99);
+  color: #333;
+}
+.dislikeBtn{
+  color: rgb(226, 65, 65);
+}
+.dislikeBtn:hover{
+  background-color: rgb(218, 89, 89);
+  color: #333;
+}
+.text{
+  color: white;
+  font-size: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
