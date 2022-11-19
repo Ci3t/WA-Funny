@@ -30,8 +30,8 @@ function App() {
   return (
     <div className="container">
       <div className="likeAndDislike">
-      <div className="like"><img  src="/Images/meme2.png" width={'100px'}/> Like: {like}</div>
-      <div className="dislike" ><img  src="/Images/memeLike.png" width={'100px'}/>DisLike: {dislike}</div>
+      <div className="like"><img  src="/Images/meme2.png" width={'100px'} alt="like" /> Like: {like}</div>
+      <div className="dislike" ><img  src="/Images/memeLike.png" width={'100px'} alt="dislike"/>DisLike: {dislike}</div>
       </div >
       <div className='text'>
 
@@ -40,7 +40,7 @@ function App() {
     {img && <div>
       
         {/* <p>{count}</p> */}
-        <img src={`/Images/${imgArr[count]}.jpg`} width='400px' height='400px' className="imgg"/>
+        <img src={`/Images/${imgArr[count]}.jpg`} alt="img" width='400px' height='400px' className="imgg"/>
     </div>}
     <div className="buttons">
 
